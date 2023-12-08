@@ -1,0 +1,12 @@
+---
+title: "Whale Shark"
+author: "Royce Obnamia"
+date: "2023-12-08"
+output: html_document
+bibliography: myrefs.bib
+---
+This is a paper about a review of the biology and ecology of the whale shark.[@colman1997review]
+This paper is about reviewing the history of biology and ecology of the whale shark. [@stevens2007whale]
+This is a paper that reviews the biology, description, reproduction, size, population structure, ecology, behavior, fisheries, and conversation of the whale shark. [@rowat2012review]
+This paper presents the results of predicting distribution patterns of whale sharks in the Indian Ocean through records and multivariate distribution models. [@sequeira2012ocean]
+This paper reviews the current and future global distributions of whale sharks.[@sequeira2014predicting]

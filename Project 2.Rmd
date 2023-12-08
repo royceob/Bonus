@@ -1,0 +1,26 @@
+---
+title: "Project 2"
+subtitle: "CPSC 292 Section 03 Hansen"
+author: "Royce Obnamia"
+date: "11/15/2023"
+output: html_notebook
+---
+
+```{r}
+library(ggplot2)
+getwd()
+TMDB_movie_dataset_v11 <- read.csv("/Users/royceobnamia/Desktop/CPSC292/Project 1/TMDB_movie_dataset_v11.csv")
+
+ggplot(TMDB_movie_dataset_v11, aes(group = genres, x = vote_average, y = revenue)) +
+  geom_point(color = "darkgreen")+
+  xlab("Vote Average")+
+  ylab("Revenue ($)") +
+  ggtitle("Revenue ($) vs. Vote Average") +
+  theme(axis.text.x = element_text(angle=45)) +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust=0.5))
+
+summary(TMDB_movie_dataset_v11)
+```
+
+https://www.kaggle.com/datasets/asaniczka/tmdb-movies-dataset-2023-930k-movies
